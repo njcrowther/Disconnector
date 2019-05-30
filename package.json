@@ -1,0 +1,31 @@
+{
+  "name": "disconnector",
+  "description": "Quickly disconnect all symbols from a selection",
+  "version": "0.1.0",
+  "engines": {
+    "sketch": ">=49.0"
+  },
+  "skpm": {
+    "name": "Disconnector",
+    "manifest": "src/manifest.json",
+    "main": "disconnector.sketchplugin",
+    "assets": [
+      "assets/**/*"
+    ],
+    "sketch-assets-file": "sketch-assets/icons.sketch",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/njcrowther/Disconnector.git"
+    }
+  },
+  "scripts": {
+    "build": "skpm-build",
+    "watch": "skpm-build --watch",
+    "start": "skpm-build --watch --run",
+    "postinstall": "npm run build && skpm-link"
+  },
+  "devDependencies": {
+    "@skpm/builder": "^0.7.0"
+  },
+  "author": "Nathan Crowther <njcrowther@gmail.com>"
+}

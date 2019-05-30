@@ -1,0 +1,26 @@
+{
+  "name": "Disconnector",
+  "description": "Quickly disconnect all symbols from a selection",
+  "author": "Nathan Crowther",
+  "homepage": "https://github.com/njcrowther/Disconnector/",
+  "version": "1.0.5",
+  "identifier": "sketch.plugin.disconnector",
+  "compatibleVersion": "52.1",
+  "icon": "disconnector.png",
+  "commands": [
+    {
+      "name": "Disconnector",
+      "identifier": "disconnector",
+      "script": "disconnector.js"
+    }
+  ],
+  "menu": {
+    "title": "Disconnector",
+    "isRoot": true,
+    "items": [
+      "disconnector"
+    ]
+  },
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com/njcrowther/Disconnector/master/.appcast.xml"
+}
