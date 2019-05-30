@@ -8,7 +8,7 @@
 - Double-click on disconnector.sketchplugin
 
 ### Or Download with Sketchpacks
-[![Install Disconnector with Sketchpacks](http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png "Install PLUGIN NAME with Sketchpacks")](https://sketchpacks.com/njcrowther/Disconnector/install)
+[![Install Disconnector with Sketchpacks](http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png "Install Disconnector with Sketchpacks")](https://sketchpacks.com/njcrowther/Disconnector/install)
 
 ## Donate
 If you found this plugin helpful, consider [donating to support further plugins!](https://paypal.me/NathanCrowther?locale.x=en_US)
