@@ -12,11 +12,11 @@
     "assets": [
       "assets/**/*"
     ],
-    "sketch-assets-file": "sketch-assets/icons.sketch",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/njcrowther/Disconnector.git"
-    }
+    "sketch-assets-file": "sketch-assets/icons.sketch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/njcrowther/Disconnector.git"
   },
   "scripts": {
     "build": "skpm-build",
