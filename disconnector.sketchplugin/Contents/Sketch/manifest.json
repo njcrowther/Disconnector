@@ -3,7 +3,7 @@
   "description": "Quickly disconnect all symbols from a selection",
   "author": "Nathan Crowther",
   "homepage": "https://github.com/njcrowther/Disconnector/",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "identifier": "sketch.plugin.disconnector",
   "compatibleVersion": "52.1",
   "icon": "disconnector.png",
