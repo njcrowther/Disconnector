@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Sketchpacks Relay - Core Settings Schema 1.0.0",
+  "type": "object",
+  "required": ["schema_version", "manifest_path"],
+  "properties": {
+    "schema_version": {
+      "description": "1.0.0",
+      "type": "string",
+      "pattern": "1.0.0"
+    },
+    "appcast_path": {
+      "description": "appcast.xml",
+      "type": "string",
+      "default": ".appcast.xml",
+      "minLength": 1
+    },
+    "manifest_path": {
+      "description": "src/manifest.json",
+      "type": "string",
+      "default": "src/manifest.json",
+      "minLength": 1
+    }
+  }
+}
